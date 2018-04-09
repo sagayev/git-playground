@@ -4,7 +4,7 @@ Spyder Editor
 
 Following Git tutorial from https://realpython.com/python-git-github-intro/.
 """
-import myname
 
-name=myname.get_name()
-print('hello {}'.format(name))
+def get_name():
+    return "Jim"
+    
